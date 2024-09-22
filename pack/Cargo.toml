@@ -1,0 +1,12 @@
+[package]
+name = "pack"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+binread = "2.2.0"
+clap = { version = "4.5.17", features = ["derive"] }
+glob-match = "0.2.1"
+log = "0.4.22"
+lzokay-native = "0.1.0"
+stderrlog = "0.6.0"
