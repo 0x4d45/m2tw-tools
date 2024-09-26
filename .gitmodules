@@ -1,0 +1,12 @@
+[submodule "submodules/argparse"]
+	path = submodules/argparse
+	url = https://github.com/p-ranav/argparse.git
+[submodule "submodules/glob"]
+	path = submodules/glob
+	url = https://github.com/p-ranav/glob.git
+[submodule "submodules/lzokay"]
+	path = submodules/lzokay
+	url = https://github.com/AxioDL/lzokay.git
+[submodule "submodules/mio"]
+	path = submodules/mio
+	url = https://github.com/vimpunk/mio.git
