@@ -1,0 +1,6 @@
+add_executable(pack main.cpp)
+target_compile_features(pack PRIVATE cxx_std_20)
+target_compile_definitions(pack PRIVATE _CRT_SECURE_NO_WARNINGS)
+target_link_libraries(pack PRIVATE extern::argparse extern::glob extern::lzokay extern::mio)
+target_compile_options(pack PRIVATE -Wall -Wextra)
+install(TARGETS pack DESTINATION bin)
