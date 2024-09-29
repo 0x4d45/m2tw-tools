@@ -1,0 +1,34 @@
+#pragma once
+
+#include <cstdint>
+
+namespace build {
+
+enum class Type : uint8_t
+{
+    Debug,
+    Release,
+};
+
+struct Version
+{
+    uint16_t major;
+    uint16_t minor;
+    uint16_t patch;
+};
+
+constexpr auto type() -> Type
+{
+    return Type::${CMAKE_BUILD_TYPE};
+}
+
+constexpr auto version() -> Version
+{
+    return Version{
+        .major = ${PROJECT_VERSION_MAJOR},
+        .minor = ${PROJECT_VERSION_MINOR},
+        .patch = ${PROJECT_VERSION_PATCH},
+    };
+}
+
+}

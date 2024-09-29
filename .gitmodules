@@ -1,0 +1,12 @@
+[submodule "submodules/CLI11"]
+	path = submodules/CLI11
+	url = https://github.com/CLIUtils/CLI11.git
+[submodule "submodules/lzokay"]
+	path = submodules/lzokay
+	url = https://github.com/AxioDL/lzokay.git
+[submodule "submodules/mio"]
+	path = submodules/mio
+	url = https://github.com/vimpunk/mio.git
+[submodule "submodules/spdlog"]
+	path = submodules/spdlog
+	url = https://github.com/gabime/spdlog.git
